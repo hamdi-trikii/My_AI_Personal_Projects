@@ -9,7 +9,7 @@ BACKEND_URL = os.getenv("BACKEND_URL")
 
 
 
-st.title("Image Caption Generator (LLaVA)")
+st.title("Image Caption Generator ")
 
 uploaded_file = st.file_uploader(
     "Upload an image",
