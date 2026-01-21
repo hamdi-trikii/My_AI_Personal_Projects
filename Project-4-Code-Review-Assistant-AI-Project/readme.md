@@ -1,6 +1,6 @@
 # Code Review Assistant 
 
-This project uses the DeepSeek-Coder model via Ollama to analyze code and provide
+This project uses the devstral-small-2:24b model via Ollama to analyze code and provide
 feedback, improvement suggestions, and bug fixes.
 
 ## Features
@@ -16,7 +16,7 @@ feedback, improvement suggestions, and bug fixes.
     OLLAMA_HOST=https://ollama.com
 
     BACKEND_URL=http://localhost:8000
-    
+
 2. Start backend:
    uvicorn backend.main:app --reload
 3. Start frontend:
